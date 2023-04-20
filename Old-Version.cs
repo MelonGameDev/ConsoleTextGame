@@ -39,11 +39,9 @@ class code
                         num[2] += 100;
                         break;
                 }
-
-                Console.WriteLine("GAME OVER!");
-                Console.WriteLine("FOR EXIT PRESS 'ESC'");
-
             } while (num[0] > 0 ^ num[1] > 0 ^ num[2] > 0);
+            Console.WriteLine("GAME OVER!");
+            Console.WriteLine("FOR EXIT PRESS 'ESC'");
 
         } while (Console.ReadKey().Key != ConsoleKey.Escape);
     }
